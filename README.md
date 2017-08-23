@@ -4,9 +4,12 @@
 
 This will build a container for backing up MySQL containers. 
 
-* dump and restore
 * dump to local filesystem 
 * select database user and password
+* backup all databases
+* choose to have an MD5 sum after backup for verification
+* delete old backups after specific amount of time
+* choose compression type (none, gz, bz, xz)
 * connect to any container running on the same system
 * select how often to run a dump
 * select when to start the first dump, whether time of day or relative to container start time
