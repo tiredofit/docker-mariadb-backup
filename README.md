@@ -72,7 +72,8 @@ The following directories are used for configuration and can be mapped for persi
 
 ## Environment Variables
 
-Below is the complete list of available options that can be used to customize your appname installation.
+Along with the Environment Variables from the [Base image](https://hub.docker.com/r/tiredofit/alpine), below is the complete list of available options that can be used to customize your installation.
+
 
 | Parameter | Description |
 |-----------|-------------|
