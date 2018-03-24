@@ -1,5 +1,11 @@
 # tiredofit/mariadb-backup
 
+[![Build Status](https://img.shields.io/docker/build/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
+[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
+[![Docker Layers](https://images.microbadger.com/badges/image/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/tiredofit/mariadb-backup)
+[![Image Size](https://img.shields.io/microbadger/image-size/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/tiredofit/mariadb-backup)
+
 # Introduction
 
 This will build a container for backing up MySQL containers. 
