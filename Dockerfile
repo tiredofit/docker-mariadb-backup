@@ -1,7 +1,7 @@
 FROM tiredofit/alpine:edge
 LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
-RUN apt purge zabbix*
+RUN apk del zabbix*
 ### Set Environment Variables
    ENV ENABLE_SMTP=FALSE
 
