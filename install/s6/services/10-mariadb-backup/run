@@ -280,7 +280,7 @@ fi
 
     # Perform Automatic Cleanup 
         if [[ -n "$DB_CLEANUP_TIME" ]]; then
-        find /backup/  -mmin +$DB_CLEANUP_TIME -iname "db_$DBNAME_*.*" -exec rm {} \;
+        find ${DB_DUMP_TARGET}  -mmin +$DB_CLEANUP_TIME -iname "db_$DBNAME_*.*" -exec rm {} \;
         fi
 
      # wait
