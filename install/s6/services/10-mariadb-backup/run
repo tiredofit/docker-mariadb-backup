@@ -18,14 +18,14 @@ DB_DUMP_BEGIN=${DB_DUMP_BEGIN:-+0}
 DB_DUMP_TARGET=${DB_DUMP_TARGET:-/backups}
 
 # login credentials
-DBUSER=${DB_USER}
-DBPASS=${DB_PASSWORD}
+DBUSER=${MYSQL_USER}
+DBPASS=${MYSQL_PASSWORD}
 
 # database server
 DBSERVER=${DB_SERVER}
 
 # database name
-DBNAME=${DB_NAME}
+DBNAME=${MYSQL_DATABASE}
 
 # temporary dump dir
 TMPDIR=/tmp/backups
